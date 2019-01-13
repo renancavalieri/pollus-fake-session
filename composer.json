@@ -1,0 +1,30 @@
+{
+    "name": "pollus/fake-session",
+    "description": "A fake session object that implements SessionInterface from SessionWrapper package, intended to be used on tests.",
+    "keywords": ["php", "session", "fake", "phpunit"],
+    "license": "MIT",
+    "authors": 
+    [
+        {
+            "name": "Renan Cavalieri",
+            "email": "renan@tecdicas.com"
+        }
+    ],
+    "type": "library",
+    "require": 
+    {
+        "php": ">=7.2",
+        "pollus/session-wrapper": "^1.0.0"
+    },
+    "require-dev": 
+    {
+        "phpunit/phpunit": "^7"
+    },
+    "autoload": 
+	{
+        "psr-4": 
+        {
+            "Pollus\\FakeSession\\": "src/"
+        }
+    }
+}
